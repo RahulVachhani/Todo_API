@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# If your project uses the .env file for environment variables:
+.env
+.env.*
+
+# Django static and media files
+/static/
+/media/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS specific files
+.DS_Store
+
+# Virtual environment folders
+venv/
+env/
+myvenv/
+
+# Node modules (if you use npm/yarn)
+node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+
+# Deployment
+*.pid
+*.seed
+*.key
+
+# Testing
+.tox/
+.nox
